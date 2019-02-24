@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-print("inserte un n úmero entre [0,20]")
+print("Inserte un  úmero entre [0,997]")
+print("(El máximo número de recursión es 997)")
 def factorial(n):
     if n == 0:
         return 1
@@ -8,4 +9,5 @@ def factorial(n):
         return n*factorial(n-1)
 
 i = int(input())
+print("El factorial del número que ingresó es:")
 print(factorial(i))

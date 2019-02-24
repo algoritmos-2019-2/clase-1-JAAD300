@@ -22,7 +22,7 @@ def Fob(n):
     print()
 
 
-print(Fob(500))
+print(Fob(10000))
 
 
 
